@@ -1,7 +1,7 @@
 let express = require('express')
 let path = require('path')
 let morgan = require('morgan')
-let PORT = process.env.PORT || 3000
+let PORT = process.env.PORT;
 
 let app = express()
 
